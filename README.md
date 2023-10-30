@@ -1,0 +1,2 @@
+# nvchad-config
+nvchad customizations
