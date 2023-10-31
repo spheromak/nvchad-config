@@ -20,12 +20,12 @@ set.relativenumber = false
 --  ruler = false,
 set.updatetime = 250
 
---Clean whitespace
+--Clean whitespace on write
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
     pattern = {"*"},
-    callback = function(ev)
-        save_cursor = vim.fn.getpos(".")
+    callback = function()
+        CURSOR = vim.fn.getpos(".")
         vim.cmd([[%s/\s\+$//e]])
-        vim.fn.setpos(".", save_cursor)
+        vim.fn.setpos(".", CURSOR)
     end,
 })

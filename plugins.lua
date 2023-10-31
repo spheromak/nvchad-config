@@ -79,7 +79,7 @@ local plugins = {
   -- terminal tweaks uses <leader>-h|v to toggle on/off vs create/delete
   { "zbirenbaum/nvim-chadterm",
     setup = function()
-      vim.schedule_wrap(vim.cmd[[packadd nvim-chadterm]])
+      vim.schedule_wrap(vim.cmd([[packadd nvim-chadterm]]))
     end,
     config = function()
       vim.schedule_wrap(require("chadterm").setup({}))
