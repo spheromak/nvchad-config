@@ -25,3 +25,10 @@ This setup uses  <space> leader, most keybinds are registered with nvchad, so us
 - `<leader>-m`: set vim mark
 
 Most bindings are defined either in `plugin_mappings.lua` or `mappings.lua`
+
+## Screenshots
+![NVtree](https://github.com/spheromak/nvchad-config/assets/48340/fc862852-4af8-45f6-8a02-b8d805f1fa7f)
+
+![LSP def](https://github.com/spheromak/nvchad-config/assets/48340/cd2d7ca9-02e5-49e5-9914-b25df8be122c)
+
+![Floating Term](https://github.com/spheromak/nvchad-config/assets/48340/a92effd2-b346-44a9-af72-9f196e83ee4c)
