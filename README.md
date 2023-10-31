@@ -6,13 +6,11 @@ Simply clone this repo to  `$HOME/.config/nvim/lua/custom` after you have setup 
 
 ```
 git clone https://github.com/spheromak/nvchad-config.git $HOME/.config/nvim/lua/custom
-
-
 ```
 You may need to remove the custom dir if it already exists
 
 ## Getting started
-This setup uses  <space> leader, most keybinds are registered with nvchad, so using `<leader>-ch` or hitting space and waiting will both pop up  the inline help. Here are a few things that I've customized
+This setup uses  `<space>` leader, most keybinds are registered with nvchad, so using `<leader>-ch` or hitting space and waiting will both pop up  the inline help. Here are a few things that I've customized
 
 - `ctrl-h|j|k|l`: will always move between split panes, and tmux panes
 - `<leader>-h|v`: h: spawns a terminal horizontal split, v: spawns it vertical split
