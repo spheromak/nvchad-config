@@ -1,5 +1,7 @@
 local M = {}
 
+
+--[[
 M.dap = {
   plugin = true,
   n = {
@@ -14,6 +16,7 @@ M.dap = {
     }
   }
 }
+--]]
 
 M.dap_go = {
   plugin = true,
