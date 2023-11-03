@@ -3,9 +3,8 @@ local M = {}
 -- our custom keymaps
 M.abc = {
   n = {
-    [";"] = { ":", "enter command mode", opts = { nowait =true} },
     ["<leader>n"] = { function() vim.diagnostic.open_float { border = "rounded" } end, "Floating diagnostic" },
-    ["n"] = { function()
+    [";"] = { function()
                 vim.diagnostic.goto_next {
                   severity = {
                     vim.diagnostic.severity.ERROR,
