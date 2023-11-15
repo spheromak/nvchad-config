@@ -26,7 +26,7 @@ local plugins = {
     end,
   },
   { "jose-elias-alvarez/null-ls.nvim",
-    ft = "go",
+    lazy = false,
     opts = function()
       return require "custom.configs.null-ls"
     end,
