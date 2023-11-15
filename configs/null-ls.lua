@@ -8,6 +8,7 @@ local sources = {
   formatting.goimports,
   formatting.golines,
   formatting.gofmt,
+  formatting.shfmt.with({ args = { "-i", "2" }}),
   formatting.prettier,
   formatting.stylua,
   formatting.beautysh,
@@ -25,8 +26,6 @@ local sources = {
   formatting.stylua,
   formatting.taplo,
   formatting.terraform_fmt,
-  formatting.tidy,
-  formatting.yq,
 
   lint.golangci_lint,
   lint.shellcheck,
